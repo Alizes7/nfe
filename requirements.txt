@@ -1,0 +1,18 @@
+# ╔══════════════════════════════════════════════╗
+# ║  NF-PDF → Excel Enterprise Ultra             ║
+# ║  requirements.txt                            ║
+# ╚══════════════════════════════════════════════╝
+
+# Interface Web
+streamlit>=1.35.0
+
+# Extração de PDF — motor híbrido
+pdfplumber>=0.11.0
+PyMuPDF>=1.24.0
+
+# Manipulação de dados
+pandas>=2.2.0
+openpyxl>=3.1.2
+
+# Utilitários (já incluídos no stdlib, listados p/ clareza)
+# re, io, os, logging, unicodedata, datetime, typing — stdlib Python 3.9+
